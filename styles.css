@@ -1146,6 +1146,9 @@ li {
   .hotel-zone-wrap .features, .hotel-zone-wrap .quickstart, .hotel-zone-wrap .quickstart, .hotel-zone-wrap .services, .hotel-zone-wrap .clients{
   padding: 30px;
 }
+  .hotel-zone-wrap .clients__heading, .hotel-zone-wrap .features__title, .hotel-zone-wrap .services__title, .hotel-zone-wrap .quickstart__title, .hotel-zone-wrap .testimonials__title, .hotel-zone-wrap .team__title{
+    font-size: 28px;
+  }
 }
 
 @media (max-width: 576px) {
