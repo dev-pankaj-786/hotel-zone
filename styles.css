@@ -198,7 +198,7 @@ li {
       rgba(0, 0, 0, 0) 50%,
       rgba(255, 255, 255, 1) 100%
     ),
-    url(./images//hero-img.jpg);
+    url(./hero-img.jpg);
 }
 .hotel-zone-wrap .hero-overlay {
   display: flex;
@@ -627,7 +627,7 @@ li {
 .hotel-zone-wrap .care {
   position: relative;
   background-image: linear-gradient(rgba(11, 10, 117, 0.8)),
-    url("./images/img4.jpg");
+    url(".img4.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
