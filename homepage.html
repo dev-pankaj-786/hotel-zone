@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="hotel-zone-wrap">
+      <header class="site-header">
+        <div class="container header-inner">
+          <a href="#" class="logo">
+            <img src="./images/logo.png" alt="Logo" />
+          </a>
+
+          <button class="menu-toggle" aria-label="Toggle menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+          </button>
+
+          <nav class="main-nav">
+            <ul class="nav-list">
+              <li class="nav-item"><a href="#">Home</a></li>
+              <li class="nav-item"><a href="#">About Us</a></li>
+              <li class="nav-item"><a href="#">Why Us</a></li>
+              <li class="nav-item"><a href="#">Jobs</a></li>
+              <li class="nav-item"><a href="#">Recruiting</a></li>
+              <li class="nav-item"><a href="#">Contact Us</a></li>
+            </ul>
+          </nav>
+
+          <div class="header-actions">
+            <a href="tel:+1234567890" class="btn btn-outline">Call Us</a>
+            <a href="mailto:info@hotelzone.com" class="btn btn-primary"
+              >Email Us</a
+            >
+          </div>
+        </div>
+        <nav class="mobile-header" aria-label="Main navigation">
+          <ul class="nav-list">
+            <li class="nav-item active"><a href="#">Home</a></li>
+            <li class="nav-item"><a href="#">About Us</a></li>
+            <li class="nav-item"><a href="#">Why Us</a></li>
+            <li class="nav-item"><a href="#">Jobs</a></li>
+            <li class="nav-item"><a href="#">Recruiting</a></li>
+            <li class="nav-item"><a href="#">Contact Us</a></li>
+            <li>
+              <div class="mobile-header-actions">
+                <a href="tel:+1234567890" class="btn btn-outline">Call Us</a>
+                <a href="mailto:info@hotelzone.com" class="btn btn-primary"
+                  >Email Us</a
+                >
+              </div>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="hero" aria-labelledby="hero-heading">
+        <div class="container">
+          <div class="hero-overlay">
+            <div class="hero__content">
+              <h1 id="hero-heading" class="hero__title">
+                We Have Your Hotel Staffing Solutions
+              </h1>
+              <p class="hero__subtitle">
+                Expert recruiters helping you find the perfect hospitality
+                talent globally
+              </p>
+
+              <div class="hero__actions">
+                <div class="action" aria-label="For Business">
+                  <span class="action__label">For Business</span>
+                  <button class="button--primary">Hire Now</button>
+                </div>
+
+                <div class="hero__divider" aria-hidden="true"></div>
+
+                <div class="action" aria-label="For Job Hunters">
+                  <span class="action__label">For Job Hunters</span>
+                  <button class="button--outline">Find Job</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="clients" aria-labelledby="clients-title">
+        <div class="container">
+          <h2 id="clients-title" class="clients__heading">Our Great Clients</h2>
+          <p class="clients__intro">
+            Our people, clients, and consultants matter to us more than
+            anything. We are driven by a culture of purpose, shared values, and
+            growth.
+          </p>
+
+          <div class="clients__slider">
+            <button
+              class="clients__control clients__control--prev"
+              aria-label="Previous clients"
+            >
+              <svg
+                width="16"
+                height="18"
+                viewBox="0 0 16 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M0.414411 9.32373L15.2358 17.5603C15.407 17.6571 15.5558 17.6682 15.6823 17.5938C15.8013 17.5194 15.8608 17.3855 15.8608 17.192V0.763462C15.8608 0.57001 15.8013 0.436081 15.6823 0.361676C15.5558 0.287271 15.407 0.298432 15.2358 0.395159L0.414411 8.63177C0.243279 8.72849 0.157714 8.84382 0.157714 8.97775C0.157714 9.11168 0.243279 9.227 0.414411 9.32373Z"
+                  fill="#000080"
+                />
+              </svg>
+            </button>
+
+            <div class="clients__track-wrapper">
+              <ul class="clients__track">
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/four-season-1.jpg"
+                    alt="Philips logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/IMG-Westgate.jpg"
+                    alt="Fox logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-IMH-Hotelzone@2x.jpg"
+                    alt="Google logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-Jefferson-Hotelzone@2x.jpg"
+                    alt="Walmart logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-Kiwanda-Hotelzone@2x.jpg"
+                    alt="Walmart logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-Laquinta-Hotelzone@2x.jpg"
+                    alt="Walmart logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-Lauberge-Hotelzone@2x.jpg"
+                    alt="Walmart logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-MacArthurPlace-Hotelzone@2x.jpg"
+                    alt="Walmart logo"
+                  />
+                </li>
+                <li class="clients__slide">
+                  <img
+                    src="./images/slider-images/Logo-Wyndham-Hotelzone@2x.jpg"
+                    alt="Walmart logo"
+                  />
+                </li>
+              </ul>
+            </div>
+
+            <button
+              class="clients__control clients__control--next"
+              aria-label="Next clients"
+            >
+              <svg
+                width="16"
+                height="18"
+                viewBox="0 0 16 18"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M15.5846 9.30664L0.763184 17.5432C0.592053 17.64 0.443243 17.6511 0.316755 17.5767C0.197707 17.5023 0.138184 17.3684 0.138184 17.1749V0.746372C0.138184 0.55292 0.197707 0.418991 0.316755 0.344586C0.443243 0.270181 0.592053 0.281342 0.763184 0.378069L15.5846 8.61468C15.7557 8.7114 15.8413 8.82673 15.8413 8.96066C15.8413 9.09459 15.7557 9.20991 15.5846 9.30664Z"
+                  fill="#000080"
+                />
+              </svg>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="services" aria-labelledby="services-title">
+        <div class="container">
+          <div class="services__header">
+            <h2 id="services-title" class="services__title">
+              Welcome Hotel Zone
+            </h2>
+          </div>
+
+          <div class="services__body">
+            <div class="services__content">
+              <h3 class="services__subtitle">
+                Hotel Zone Provides You Variety of Staffing Services
+              </h3>
+              <ul class="services__list">
+                <li class="services__item">Global Corporate Hotels</li>
+                <li class="services__item">Small, Mid, Large Hotel Groups</li>
+                <li class="services__item">Hotel Franchises</li>
+                <li class="services__item">Resorts &amp; Casino</li>
+                <li class="services__item">Hospitality Groups</li>
+              </ul>
+              <div class="services__actions">
+                <a href="#" class="button button--primary">Explore All</a>
+                <a href="#" class="button button--outline-2">Learn More</a>
+              </div>
+            </div>
+
+            <div class="services__visual">
+              <div class="visual-wrapper">
+                <img
+                  src="./images/img3.png"
+                  alt="Hotel reception staff"
+                  class="visual-image"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="features" aria-labelledby="features-title">
+        <div class="container">
+          <div class="features__header">
+            <h2 id="features-title" class="features__title">
+              Hotel Zone Can Help You
+            </h2>
+            <p class="features__subtitle">
+              HotelZone’s Recruiters bring over 165+ years of real world
+              operating and human resources experience in the hotel space. Our
+              specialties include:
+            </p>
+          </div>
+
+          <article class="feature-block">
+            <div class="feature-block__media">
+              <div class="feature-block__image-wrapper">
+                <img
+                  src="./images/img.jpg"
+                  alt="Hotel staff at work"
+                  class="feature-block__image"
+                />
+              </div>
+            </div>
+            <div class="feature-block__content">
+              <h3 class="feature-block__heading">
+                Hire Best Staff For Your Business
+              </h3>
+              <p class="feature-block__text">
+                Our recruitment services cater to hotel groups of all sizes,
+                from boutique establishments to expansive chains. We customize
+              </p>
+              <p class="feature-block__text">
+                Our recruitment services cater to hotel groups of all sizes,
+                from boutique establishments to expansive chains. We customize
+              </p>
+              <a
+                href="#"
+                class="feature-block__button feature-block__button--primary"
+                >Hire Now</a
+              >
+            </div>
+          </article>
+
+          <article class="feature-block">
+            <div class="feature-block__media">
+              <div class="feature-block__image-wrapper">
+                <img
+                  src="./images/img2.png"
+                  alt="Job applicant at reception"
+                  class="feature-block__image"
+                />
+              </div>
+            </div>
+            <div class="feature-block__content">
+              <h3 class="feature-block__heading feature-block__heading--alt">
+                Want To Apply for the Staff
+              </h3>
+              <p class="feature-block__text">
+                Our recruitment services cater to hotel groups of all sizes,
+                from boutique establishments to expansive chains. We customize
+              </p>
+              <p class="feature-block__text">
+                Our recruitment services cater to hotel groups of all sizes,
+                from boutique establishments to expansive chains. We customize
+              </p>
+              <a
+                href="#"
+                class="feature-block__button feature-block__button--alt"
+                >Apply Now</a
+              >
+            </div>
+          </article>
+        </div>
+      </section>
+      <section class="care" aria-labelledby="care-title">
+        <div class="container care__inner">
+          <div class="care__content">
+            <h2 id="care-title" class="care__heading">
+              We Cares Your Business
+            </h2>
+            <p class="care__text">
+              HotelZone was founded in 2014, and has recruiters who have
+              recruited exclusively in this industry for over 35+ years, and
+              have very unique candidate connections in this industry. Many of
+              our recruiters have direct operations experience and understand
+              industry trends and hiring challenges
+            </p>
+          </div>
+          <div
+            class="care__highlight"
+            aria-label="Recruiters' experience summary"
+          >
+            <p class="care__highlight-text">
+              Our recruiters have 50+ years of cumulative experience recruiting
+              executives, management, & hourly employees within the hotel &
+              hospitality sector
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="quickstart" aria-labelledby="quickstart-title">
+        <div class="container">
+          <div class="quickstart__header">
+            <h2 id="quickstart-title" class="quickstart__title">
+              Quick Start With Us
+            </h2>
+            <p class="quickstart__subtitle">
+              Choose the service according to your requirement, then provide
+              your business details and preview the candidates
+            </p>
+          </div>
+
+          <div class="quickstart__cards">
+            <article class="quickstart__card">
+              <img
+                src="./images/img5.jpg"
+                alt="Team meeting in corporate hotel"
+                class="quickstart__image"
+              />
+              <h3 class="quickstart__card-title">Global Corporate Hotels</h3>
+              <p class="quickstart__card-text">
+                We collaborate with international hotel chains to identify and
+                place top‑tier talent in leadership and operational roles.
+              </p>
+              <a href="#" class="quickstart__button">Hire Now</a>
+            </article>
+
+            <article class="quickstart__card">
+              <img
+                src="./images/img6.png"
+                alt="Hotel reception team discussion"
+                class="quickstart__image"
+              />
+              <h3 class="quickstart__card-title">
+                Small, Mid, Large Hotel Groups
+              </h3>
+              <p class="quickstart__card-text">
+                We collaborate with international hotel chains to identify and
+                place top‑tier talent in leadership and operational roles.
+              </p>
+              <a href="#" class="quickstart__button">Hire Now</a>
+            </article>
+
+            <article class="quickstart__card">
+              <img
+                src="./images/img7.png"
+                alt="Hotel staff corridor walking"
+                class="quickstart__image"
+              />
+              <h3 class="quickstart__card-title">Hotel Franchises</h3>
+              <p class="quickstart__card-text">
+                We collaborate with international hotel chains to identify and
+                place top‑tier talent in leadership and operational roles.
+              </p>
+              <a href="#" class="quickstart__button">Hire Now</a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials" aria-labelledby="testimonials-title">
+        <div class="container">
+          <div class="testimonials__header">
+            <h2 id="testimonials-title" class="testimonials__title">
+              Our Happy Clients
+            </h2>
+          </div>
+
+          <div class="testimonials__grid">
+            <article class="testimonial-card">
+              <img
+                src="./images/testimonials/Mask.png"
+                alt="Photo of Rayhan Curran"
+                class="testimonial-card__avatar"
+              />
+              <p class="testimonial-card__text">
+                I joined the HotelZone as National Account Manager in 2020.
+                Based out of Orlando, Florida, she is well versed in the
+                hospitality industry with more than 25 years
+              </p>
+              <p class="testimonial-card__author">Rayhan Curran</p>
+            </article>
+
+            <article class="testimonial-card">
+              <img
+                src="./images/testimonials/Userpic (1).png"
+                alt="Photo of Kayley Frame"
+                class="testimonial-card__avatar"
+              />
+              <p class="testimonial-card__text">
+                I joined the HotelZone as National Account Manager in 2020.
+                Based out of Orlando, Florida, she is well versed in the
+                hospitality industry with more than 25 years
+              </p>
+              <p class="testimonial-card__author">Kayley Frame</p>
+            </article>
+
+            <article class="testimonial-card">
+              <img
+                src="./images/testimonials/Userpic (2).png"
+                alt="Photo of Gene Whitfield"
+                class="testimonial-card__avatar"
+              />
+              <p class="testimonial-card__text">
+                I joined the HotelZone as National Account Manager in 2020.
+                Based out of Orlando, Florida, she is well versed in the
+                hospitality industry with more than 25 years
+              </p>
+              <p class="testimonial-card__author">Gene Whitfield</p>
+            </article>
+
+            <article class="testimonial-card">
+              <img
+                src="./images/testimonials/Userpic.png"
+                alt="Photo of Allan Kim"
+                class="testimonial-card__avatar"
+              />
+              <p class="testimonial-card__text">
+                I joined the HotelZone as National Account Manager in 2020.
+                Based out of Orlando, Florida, she is well versed in the
+                hospitality industry with more than 25 years
+              </p>
+              <p class="testimonial-card__author">Allan Kim</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="team" aria-labelledby="team-title">
+        <div class="team__hero">
+          <div class="team__heading-wrapper">
+            <h2 id="team-title" class="team__title">Meet Our Team</h2>
+            <p class="team__subtitle">
+              Samples will show you the feeling on how to play around using the
+              components in the website building process.
+            </p>
+          </div>
+        </div>
+
+        <div class="team__profiles container">
+          <article class="profile-card">
+            <img
+              src="./images/testimonials/Userpic (1).png"
+              alt="Samantha Gimson"
+              class="profile-card__avatar"
+            />
+            <h3 class="profile-card__name">Samantha Gimson</h3>
+            <div class="profile-card__social">
+              <a href="#" aria-label="Twitter"
+                ><img src="icon-twitter.svg" alt=""
+              /></a>
+              <a href="#" aria-label="Facebook"
+                ><img src="icon-facebook.svg" alt=""
+              /></a>
+              <a href="#" aria-label="Dribbble"
+                ><img src="icon-dribbble.svg" alt=""
+              /></a>
+            </div>
+          </article>
+
+          <article class="profile-card">
+            <img
+              src="./images/testimonials/Userpic (2).png"
+              alt="Evan Barrington"
+              class="profile-card__avatar"
+            />
+            <h3 class="profile-card__name">Evan Barrington</h3>
+            <div class="profile-card__social">
+              <a href="#" aria-label="Twitter"
+                ><img src="icon-twitter.svg" alt=""
+              /></a>
+              <a href="#" aria-label="Facebook"
+                ><img src="icon-facebook.svg" alt=""
+              /></a>
+              <a href="#" aria-label="Behance"
+                ><img src="icon-behance.svg" alt=""
+              /></a>
+            </div>
+          </article>
+
+          <article class="profile-card">
+            <img
+              src="./images/testimonials/Userpic.png"
+              alt="Brian Oakman"
+              class="profile-card__avatar"
+            />
+            <h3 class="profile-card__name">Brian Oakman</h3>
+            <div class="profile-card__social">
+              <a href="#" aria-label="Twitter"
+                ><img src="icon-twitter.svg" alt=""
+              /></a>
+              <a href="#" aria-label="GitHub"
+                ><img src="icon-github.svg" alt=""
+              /></a>
+            </div>
+          </article>
+        </div>
+
+        <div class="team__cta">
+          <a href="#" class="button button--outline">View Our Team</a>
+        </div>
+      </section>
+      <section class="cta-section" aria-labelledby="cta-title">
+        <div class="cta-container">
+          <h2 id="cta-title" class="cta-heading">
+            Ready to Fill Your Next Role?
+          </h2>
+          <a href="#" class="cta-button">Schedule a Consultation</a>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <div class="container footer-top">
+          <a href="#" class="logo">
+            <img src="./images/logo.png" alt="Logo" />
+          </a>
+          <div
+            style="
+              display: flex;
+              align-items: center;
+              flex-wrap: wrap;
+              gap: 20px;
+            "
+          >
+            <ul class="footer-links">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms</a></li>
+            </ul>
+            <div class="social-icons">
+              <a href="#">
+                <svg
+                  width="17"
+                  height="14"
+                  viewBox="0 0 17 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M16.2723 1.86959C15.8237 2.52584 15.2813 3.085 14.6451 3.54705C14.6518 3.6408 14.6551 3.78142 14.6551 3.96892C14.6551 4.83946 14.5279 5.71 14.2734 6.58053C14.019 7.44437 13.6306 8.27473 13.1083 9.0716C12.5926 9.86848 11.9766 10.575 11.26 11.191C10.5435 11.8004 9.67969 12.2892 8.66853 12.6575C7.65737 13.0191 6.57589 13.2 5.42411 13.2C3.60938 13.2 1.94866 12.7145 0.441964 11.7435C0.676339 11.7703 0.9375 11.7837 1.22545 11.7837C2.73214 11.7837 4.07478 11.3216 5.25335 10.3975C4.55022 10.3841 3.92076 10.1698 3.36496 9.75464C2.80915 9.33276 2.42746 8.79705 2.21987 8.1475C2.44085 8.18098 2.64509 8.19772 2.83259 8.19772C3.12054 8.19772 3.40513 8.16089 3.68638 8.08723C2.93638 7.93321 2.31362 7.56156 1.81808 6.97227C1.32924 6.37629 1.08482 5.68656 1.08482 4.90308V4.8629C1.54018 5.11736 2.02902 5.25464 2.55134 5.27473C2.10938 4.98008 1.75781 4.59504 1.49665 4.11959C1.23549 3.64415 1.10491 3.12852 1.10491 2.57272C1.10491 1.98343 1.25223 1.43767 1.54688 0.935442C2.35714 1.93321 3.34152 2.73343 4.5 3.33611C5.66518 3.93209 6.91071 4.26357 8.23661 4.33053C8.18304 4.07607 8.15625 3.8283 8.15625 3.58723C8.15625 2.68991 8.47098 1.92651 9.10045 1.29705C9.73661 0.660888 10.5033 0.342808 11.4007 0.342808C12.3382 0.342808 13.1283 0.684326 13.7712 1.36736C14.5011 1.22674 15.1875 0.965576 15.8304 0.58388C15.5826 1.35397 15.1071 1.94995 14.404 2.37183C15.0268 2.30486 15.6496 2.13745 16.2723 1.86959Z"
+                    fill="#000080"
+                  />
+                </svg>
+              </a>
+              <a href="#">
+                <svg
+                  width="10"
+                  height="18"
+                  viewBox="0 0 10 18"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.63281 0.891915V3.5437H8.0558C7.47991 3.5437 7.09152 3.66424 6.89063 3.90531C6.68973 4.14638 6.58929 4.50799 6.58929 4.99013V6.88857H9.53237L9.14062 9.86178H6.58929V17.4857H3.51563V9.86178H0.954241V6.88857H3.51563V4.69883C3.51563 3.4533 3.86384 2.48901 4.56027 1.80598C5.2567 1.11624 6.18415 0.771379 7.34263 0.771379C8.32701 0.771379 9.0904 0.811557 9.63281 0.891915Z"
+                    fill="#000080"
+                  />
+                </svg>
+              </a>
+              <a href="#">
+                <svg
+                  width="24"
+                  height="16"
+                  viewBox="0 0 24 16"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M14.4342 7.94214C14.4342 9.335 14.1429 10.5772 13.5603 11.6687C12.9777 12.7535 12.1473 13.6006 11.0692 14.21C9.99107 14.8261 8.75558 15.1341 7.36272 15.1341C6.36496 15.1341 5.41071 14.9399 4.5 14.5515C3.58929 14.1631 2.8058 13.6408 2.14955 12.9845C1.4933 12.3283 0.970982 11.5448 0.582589 10.6341C0.194196 9.72339 0 8.76915 0 7.77138C0 6.77361 0.194196 5.81937 0.582589 4.90866C0.970982 3.99794 1.4933 3.21446 2.14955 2.55821C2.8058 1.90196 3.58929 1.37964 4.5 0.991246C5.41071 0.602852 6.36496 0.408656 7.36272 0.408656C9.2779 0.408656 10.9219 1.05151 12.2946 2.33723L10.2958 4.25575C9.51228 3.49906 8.5346 3.12071 7.36272 3.12071C6.53906 3.12071 5.77567 3.3283 5.07254 3.74348C4.37612 4.15866 3.82366 4.7245 3.41518 5.44102C3.0067 6.15084 2.80246 6.92763 2.80246 7.77138C2.80246 8.61513 3.0067 9.39526 3.41518 10.1118C3.82366 10.8216 4.37612 11.3841 5.07254 11.7993C5.77567 12.2145 6.53906 12.422 7.36272 12.422C7.91853 12.422 8.42746 12.345 8.88951 12.191C9.35826 12.037 9.7433 11.8462 10.0446 11.6185C10.346 11.3841 10.6071 11.1196 10.8281 10.825C11.0558 10.5303 11.2199 10.2524 11.3203 9.99125C11.4275 9.73008 11.5011 9.48232 11.5413 9.24794H7.36272V6.71669H14.3136C14.394 7.13857 14.4342 7.54705 14.4342 7.94214ZM23.1429 6.71669V8.82607H21.0435V10.9254H18.9342V8.82607H16.8348V6.71669H18.9342V4.61736H21.0435V6.71669H23.1429Z"
+                    fill="#000080"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+        <hr />
+        <div class="container footer-bottom">
+          <ul class="footer-nav">
+            <li><a href="#">Tour</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Pricing Plans</a></li>
+            <li><a href="#">Our Works</a></li>
+            <li><a href="#">Brands</a></li>
+            <li><a href="#">Contacts</a></li>
+          </ul>
+          <p class="copyright">© 2025 HotelZone. All rights reserved.</p>
+        </div>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
