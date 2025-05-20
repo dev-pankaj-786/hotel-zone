@@ -528,7 +528,7 @@ li {
 .hotel-zone-wrap
 .services__item {
   position: relative;
-  padding-left: 32px;
+/*   padding-left: 32px; */
   font-size: 1rem;
   color: #333;
   margin-bottom: 16px;
