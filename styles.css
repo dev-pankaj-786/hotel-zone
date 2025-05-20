@@ -486,6 +486,7 @@ li {
 .hotel-zone-wrap
 .services {
   padding: 80px 20px 80px 20px;
+  background-color: #f7f5f5;
 }
 .hotel-zone-wrap
 .services__header {
@@ -602,7 +603,7 @@ li {
   right: 50px;
   width: 90%;
   height: 100%;
-  background-color: #f2f4f8;
+  background-color: #fff;
   border-radius: 50px;
   z-index: -2;
 }
@@ -755,7 +756,7 @@ li {
   margin-bottom: 40px;
 }
 .hotel-zone-wrap .testimonials__title {
-  font-size: 2.5rem;
+  font-size: 42px;
   margin: 0;
 }
 
