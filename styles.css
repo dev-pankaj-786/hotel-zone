@@ -627,7 +627,7 @@ li {
 .hotel-zone-wrap .care {
   position: relative;
   background-image: linear-gradient(rgba(11, 10, 117, 0.8)),
-    url(".img4.jpg");
+    url("./img4.jpg");
   background-size: cover;
   background-position: center;
   color: #fff;
@@ -818,7 +818,7 @@ li {
 .hotel-zone-wrap .team {
   font-family: sans-serif;
   position: relative;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.6)) ,url("./images/team.png");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6)) ,url("./team.png");
   background-size: cover;
   background-position: center;
   padding: 60px 20px;
@@ -1172,7 +1172,7 @@ li {
     padding: 14px 0;
   }
  .hotel-zone-wrap .hero {
-      background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 1) 100%), url(./images//hero-img.jpg);
+      background-image: linear-gradient(to right, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%, rgba(255, 255, 255, 1) 100%), url(./hero-img.jpg);
  }
 }
 
