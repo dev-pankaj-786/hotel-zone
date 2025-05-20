@@ -366,7 +366,7 @@ li {
 .hotel-zone-wrap
 .features__subtitle {
   font-size: 1rem;
-  color: #a3a6b4;
+  color: #333;
   max-width: 700px;
   margin: 0 auto;
   line-height: 1.6;
@@ -451,7 +451,7 @@ li {
 .hotel-zone-wrap
 .feature-block__text {
   font-size: 1rem;
-  color: #a3a6b4;
+  color: #989898;
   margin-bottom: 16px;
   line-height: 1.6;
 }
@@ -686,7 +686,7 @@ li {
 
 .hotel-zone-wrap .quickstart__subtitle {
   font-size: 1rem;
-  color: #a3a6b4;
+  color: #333;
   max-width: 600px;
   margin: 0 auto;
   line-height: 1.6;
@@ -724,7 +724,7 @@ li {
 }
 .hotel-zone-wrap .quickstart__card-text {
   font-size: 0.9375rem;
-  color: #a3a6b4;
+  color: #989898;
   line-height: 1.6;
   flex-grow: 1;
   margin-bottom: 24px;
