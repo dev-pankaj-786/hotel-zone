@@ -859,8 +859,8 @@ li {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 30px;
-  margin-top: -40px;
-  padding-bottom: 60px;
+  margin-top: 40px;
+
   position: relative;
   z-index: 1;
 }
